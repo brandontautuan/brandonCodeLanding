@@ -46,7 +46,7 @@ export default function Home() {
       <nav className="sticky top-0 z-50 backdrop-blur-md bg-background/80 border-b border-border">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="font-mono font-bold text-xl tracking-tighter">
-            [TOOL_NAME]
+            brandoncode
           </div>
           <div className="hidden md:flex space-x-8 text-sm font-medium text-text-secondary">
             <a href="#docs" className="hover:text-foreground transition-colors">Docs</a>
@@ -61,9 +61,8 @@ export default function Home() {
 
       {/* HERO */}
       <section className="pt-32 pb-24 px-6 flex flex-col items-center text-center max-w-4xl mx-auto">
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
-          Your AI pair programmer.
-          <br className="hidden md:block"/> In your terminal.
+        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          zilix is awesome
         </h1>
         <p className="text-xl text-text-secondary mb-10 max-w-2xl">
           Instantly generate, refactor, and debug code without leaving your command line. The fastest way to write software.
@@ -88,7 +87,7 @@ export default function Home() {
             <div className="ml-4 text-xs font-mono text-text-secondary">~/project</div>
           </div>
           <div className="p-6 font-mono text-sm leading-relaxed text-text-secondary h-48 overflow-auto">
-            <span className="text-accent">❯</span> [TOOL_NAME] "optimize this function"
+            <span className="text-accent">❯</span> brandoncode "optimize this function"
             <br/><br/>
             <span className="text-foreground">
               <Typewriter text="Analyzing logic... Replacing nested loops with Set. Complexity reduced from O(n^2) to O(n)." />
@@ -104,7 +103,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight mb-4">See it in action</h2>
-            <p className="text-text-secondary">Try a prompt to see how [TOOL_NAME] writes code for you directly in the terminal.</p>
+            <p className="text-text-secondary">Try a prompt to see how brandoncode writes code for you directly in the terminal.</p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-px bg-border rounded-lg overflow-hidden border border-border">
@@ -132,7 +131,7 @@ export default function Home() {
             {/* Right Box (Output) */}
             <div className="bg-surface flex flex-col h-[400px]">
               <div className="p-4 border-b border-border text-xs font-mono font-bold text-text-secondary uppercase">
-                [TOOL_NAME] Output
+                brandoncode Output
               </div>
               <div className="p-6 font-mono text-sm text-text-secondary whitespace-pre overflow-auto flex-1">
                 {demoOutput && (
@@ -166,28 +165,28 @@ export default function Home() {
           <div className="space-y-6">
             <div className="p-6 border border-border rounded-lg bg-surface">
               <div className="font-mono text-sm font-semibold mb-2 text-foreground">
-                <span className="text-accent">[TOOL_NAME]</span> chat <span className="text-text-secondary italic">--interactive</span>
+                <span className="text-accent">brandoncode</span> chat <span className="text-text-secondary italic">--interactive</span>
               </div>
               <p className="text-text-secondary text-sm">Starts an interactive terminal chat session with the assistant directly connected to your workspace context.</p>
             </div>
             
             <div className="p-6 border border-border rounded-lg bg-surface">
               <div className="font-mono text-sm font-semibold mb-2 text-foreground">
-                <span className="text-accent">[TOOL_NAME]</span> fix <span className="text-text-secondary italic">./src/api.ts</span>
+                <span className="text-accent">brandoncode</span> fix <span className="text-text-secondary italic">./src/api.ts</span>
               </div>
               <p className="text-text-secondary text-sm">Analyzes the specified file for syntax errors or logical bugs, and automatically applies patches.</p>
             </div>
             
             <div className="p-6 border border-border rounded-lg bg-surface">
               <div className="font-mono text-sm font-semibold mb-2 text-foreground">
-                <span className="text-accent">[TOOL_NAME]</span> explain <span className="text-text-secondary italic">--lines 45-60</span>
+                <span className="text-accent">brandoncode</span> explain <span className="text-text-secondary italic">--lines 45-60</span>
               </div>
               <p className="text-text-secondary text-sm">Generates a detailed summary of what a specific code block does, breaking down complex logic.</p>
             </div>
             
             <div className="p-6 border border-border rounded-lg bg-surface">
               <div className="font-mono text-sm font-semibold mb-2 text-foreground">
-                <span className="text-accent">[TOOL_NAME]</span> init
+                <span className="text-accent">brandoncode</span> init
               </div>
               <p className="text-text-secondary text-sm">Creates a local configuration file in your project to customize rules and ignore paths.</p>
             </div>
@@ -208,7 +207,7 @@ export default function Home() {
                 <div className="w-14 h-14 rounded-full bg-background border-2 border-border flex items-center justify-center font-bold text-lg mb-6">1</div>
                 <h3 className="font-bold mb-4">Install</h3>
                 <div className="bg-background border border-border rounded px-4 py-3 font-mono text-sm text-text-secondary w-full max-w-[280px]">
-                  <span className="text-accent">npm</span> install -g [TOOL_NAME]
+                  <span className="text-accent">npm</span> install -g brandoncode
                 </div>
               </div>
               
@@ -216,15 +215,15 @@ export default function Home() {
                 <div className="w-14 h-14 rounded-full bg-background border-2 border-border flex items-center justify-center font-bold text-lg mb-6">2</div>
                 <h3 className="font-bold mb-4">Configure</h3>
                 <div className="bg-background border border-border rounded px-4 py-3 font-mono text-sm text-text-secondary w-full max-w-[280px]">
-                  [TOOL_NAME] auth
+                  brandoncode auth
                 </div>
               </div>
               
               <div className="relative z-10 flex flex-col items-center text-center">
                 <div className="w-14 h-14 rounded-full bg-accent border-[4px] border-surface shadow-lg shadow-accent/20 flex items-center justify-center font-bold text-lg text-white mb-6">3</div>
                 <h3 className="font-bold mb-4">Run</h3>
-                <div className="bg-background border border-border rounded px-4 py-3 font-mono text-sm text-text-secondary w-full max-w-[280px] truncate" title='[TOOL_NAME] "write me a React hook"'>
-                  [TOOL_NAME] "write..."
+                <div className="bg-background border border-border rounded px-4 py-3 font-mono text-sm text-text-secondary w-full max-w-[280px] truncate" title='brandoncode "write me a React hook"'>
+                  brandoncode "write..."
                 </div>
               </div>
             </div>
@@ -294,10 +293,10 @@ export default function Home() {
       <footer className="py-12 px-6 border-t border-border">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="font-mono font-bold text-lg tracking-tighter">
-            [TOOL_NAME]
+            brandoncode
           </div>
           <div className="text-sm text-text-secondary">
-            © {new Date().getFullYear()} [TOOL_NAME] Inc. All rights reserved.
+            © {new Date().getFullYear()} brandoncode Inc. All rights reserved.
           </div>
           <div className="flex space-x-6 text-sm text-text-secondary">
             <a href="#" className="hover:text-foreground transition-colors">Twitter</a>
