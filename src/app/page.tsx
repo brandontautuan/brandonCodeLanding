@@ -62,7 +62,7 @@ export default function Home() {
       {/* HERO */}
       <section className="pt-32 pb-24 px-6 flex flex-col items-center text-center max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-          brandon is awesome
+          zilix is awesome
         </h1>
         <p className="text-xl text-text-secondary mb-10 max-w-2xl">
           Instantly generate, refactor, and debug code without leaving your command line. The fastest way to write software.
